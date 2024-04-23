@@ -23,7 +23,7 @@ public class FrogSimulation
 			else if(sum < 0)
 				return false;
 		}
-		return false
+		return false;
 	}
 	
 	public double runSimulations(int num)
@@ -32,7 +32,7 @@ public class FrogSimulation
 		for(int i = 0; i < num;i++)
 			if(simulate() == true)
 				sum++;
-		return sum/
+		return sum/num;
 	}
 	
 	
